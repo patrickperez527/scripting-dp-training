@@ -168,14 +168,14 @@
         } fields 
         (
             slice1 ""
-            categorical [1..]
+            categorical [1 .. ]
             {
                 _1 "Option 1",
                 _2 "Option 2"
             };
 
             slice2 ""
-            categorical [1..1]
+            categorical [1 .. 1]
             {
                 _1 "Option 1",
                 _2 "Option 2",
@@ -202,7 +202,7 @@
         };
 
         Q001 "What brands are you aware of?" 
-        categorical [1..]
+        categorical [1 .. ]
         {
             use List_Brands
         };
