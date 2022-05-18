@@ -246,7 +246,7 @@
         OCCUP.Ask()
 
         OCCUP1.Categories.Filter = OCCUP.Response
-        OCCUP1.Response
+        OCCUP1.Ask()
     End Routing
 
 # Canfilter
@@ -292,7 +292,6 @@
 
         ZipCode "What is your 5 digit zipcode?" 
         text [5 .. 5];
-
     End Metadata
 
     Routing(Web)
@@ -330,7 +329,7 @@
         });
 
         WEIGHT "What is your weight in kilograms?"
-        double [47.5 .. 60] scale(2)
+        double [47.5 .. 60] scale(2);
     End Metadata
 
     Routing(Web)
@@ -516,7 +515,6 @@
             ThankYou.Show()
         End if
 
-        ThankYou.Show()
     End Routing
 
 # Select Case
@@ -575,7 +573,7 @@
         // Accessing the Nestle Brand 
         LoopQ1[{_1}].Ask()
 
-        // Accessing only the Q3
+        // Accessing only the Q1
         LoopQ1[{_1}].Q1.Ask()
 
         // Asking for all categories
