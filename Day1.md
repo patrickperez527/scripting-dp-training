@@ -167,7 +167,7 @@
             _3 "Brand 3"
         } fields 
         (
-            slice1 ""
+            slice1 "" 
             categorical [1 .. ]
             {
                 _1 "Option 1",
