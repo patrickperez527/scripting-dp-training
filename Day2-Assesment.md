@@ -1,4 +1,6 @@
 # Day 2 Assesment Answers
+
+# Metadata 
     Metadata(fil-PH, Question, Label)
         I1 "Welcome to Survey Health Care! This survey will take you about 5 minutes. As always, your individual survey responses are protected by our Privacy Policy."
             info;
@@ -208,6 +210,7 @@
             info;
     End Metadata
 
+# Routing
     Routing(Web)
         I1.Show()
         
